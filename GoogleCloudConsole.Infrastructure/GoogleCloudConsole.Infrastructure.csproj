@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Drive.v3" Version="1.68.0.3627" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GoogleCloudConsole.Application\GoogleCloudConsole.Application.csproj" />
+    <ProjectReference Include="..\GoogleCloudConsole.Domain\GoogleCloudConsole.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
