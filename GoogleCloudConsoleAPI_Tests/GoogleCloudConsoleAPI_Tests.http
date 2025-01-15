@@ -1,0 +1,6 @@
+@GoogleCloudConsoleAPI_Tests_HostAddress = http://localhost:5184
+
+GET {{GoogleCloudConsoleAPI_Tests_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
