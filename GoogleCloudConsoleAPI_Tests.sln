@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCloudConsoleAPI_Tests
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCloudConsole.Domain", "GoogleCloudConsole.Domain\GoogleCloudConsole.Domain.csproj", "{134C852D-0B72-4965-A844-5A7FFBAAB3C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCloudConsole.Infrastructure", "GoogleCloudConsole.Infrastructure\GoogleCloudConsole.Infrastructure.csproj", "{6FA10F35-0028-46C1-ABE9-51BC814673B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleCloudConsole.Application", "GoogleCloudConsole.Application\GoogleCloudConsole.Application.csproj", "{6163F9DA-F140-44F8-B45B-ED458CEE7F07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{134C852D-0B72-4965-A844-5A7FFBAAB3C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{134C852D-0B72-4965-A844-5A7FFBAAB3C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{134C852D-0B72-4965-A844-5A7FFBAAB3C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA10F35-0028-46C1-ABE9-51BC814673B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA10F35-0028-46C1-ABE9-51BC814673B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA10F35-0028-46C1-ABE9-51BC814673B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA10F35-0028-46C1-ABE9-51BC814673B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6163F9DA-F140-44F8-B45B-ED458CEE7F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6163F9DA-F140-44F8-B45B-ED458CEE7F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6163F9DA-F140-44F8-B45B-ED458CEE7F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6163F9DA-F140-44F8-B45B-ED458CEE7F07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
